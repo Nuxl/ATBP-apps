@@ -86,13 +86,12 @@
 					<button id="switchPM">Project M</button>
 					<button id="switchSSF2">Super Smash Flash 2</button>
 					<button id="switchBrawlMinus">Brawl Minus</button><br>
-					<button id="switchSFV">Street Fighter V</button>
-					<button id="switchGGREV">Guilty Gear Xrd -Revelator-</button>
+					<button id="switchATBP">Adventure Time Battle Party-</button>
 					<button id="switchBrawlhalla">Brawlhalla</button>
 					<button id="switchOW">Overwatch</button>
 				</div>
 				<p><strong>Changing your game will empty your tierlist!</strong> Do not click unless you are sure you want to change! You cannot undo this.</p>
-				<p>64, Melee, Brawl, and Smash 4 screenshot icons from <a href="http://ssbwiki.com">SmashWiki</a>. Smash 4 render icons made by /u/wafflepotamus. Project M screenshot icons made by /u/brewster_the_pigeon. Smash Flash 2 screenshot icons made by /u/AxeEnding999. Brawl Minus icons made by /u/mslb99. Street Fighter V icons from <a href="http://sfv-wiki.com/wiki/STREET_FIGHTER_V_Wiki">SFV-Wiki</a>. Guilty Gear screenshot from <a href="http://www.dustloop.com/wiki/index.php/Guilty_Gear_Xrd_-REVELATOR-">Dustloop GG Rev Wiki</a>. Overwatch icons made by Blizzard Entertainment.</p>
+				<p>64, Melee, Brawl, and Smash 4 screenshot icons from <a href="http://ssbwiki.com">SmashWiki</a>. Smash 4 render icons made by /u/wafflepotamus. Project M screenshot icons made by /u/brewster_the_pigeon. Smash Flash 2 screenshot icons made by /u/AxeEnding999. Brawl Minus icons made by /u/mslb99. ATBP icons from <a href="http://adventure-time-battle-party.wikia.com/wiki/Adventure_Time_Battle_Party_Wiki">ATBP-Wiki</a>. Guilty Gear screenshot from <a href="http://www.dustloop.com/wiki/index.php/Guilty_Gear_Xrd_-REVELATOR-">Dustloop GG Rev Wiki</a>. Overwatch icons made by Blizzard Entertainment.</p>
 			</div>
 			<div id="helpMenu">
 				<h1>HELP</h1>
@@ -135,7 +134,7 @@
 		var gameBrawl = ["brawl","mario","luigi","peach","bowser","donkeykong","diddykong","yoshi","wario","link","zelda","sheik","ganondorf","toonlink","samus","zerosuitsamus","pit","iceclimbers","rob","kirby","metaknight","kingdedede","olimar","fox","falco","wolf","captainfalcon","pikachu","pokemontrainer","lucario","jigglypuff","marth","ike","ness","lucas","mrgamewatch","snake","sonic"];
 		var gamePM = ["pm","wario","mario","luigi","peach","bowser","yoshi","donkeykong","diddykong","falcon","wolf","fox","falco","icies","zelda","sheik","link","toonlink","ganon","mewtwo","lucario","pikachu","jigglypuff","squirtle","ivysaur","charizard","samus","zerosuit","lucas","ness","pit","kirby","metaknight","dedede","ike","marth","roy","olimar","rob","gnw","snake","sonic"];
 		var gameBrawlMinus = ["bminus","mario","luigi","peach","bowser","yoshi","donkeykong","diddy","wario","waluigi","link","zelda","sheik","ganondorf","toonlink","samus","zss","ness","lucas","pikachu","jigglypuff","pichu","mewtwo","squirtle","ivysaur","charizard","lucario","kirby","dedede","mk","fox","falco","wolf","marth","roy","ike","captainfalcon","gnw","iceclimbers","rob","pit","olimar","snake","sonic"];
-		var gameSFV = ["sfv","alex","akuma","balrog","birdie","cammy","chunli","dhalsim","fang","guile","ibuki","karin","ken","laura","mbison","nash","necalli","rashid","rmika","ryu","vega","zangief","juri","urien"];
+		var gameATBP = ["atbp", "billy", "BMO", "cb", "finn", "fionna", "fp", "gunter", "hunson", "ik", "jake", "lemongrab", "lich", "lsp", "mm", "marceline", "neptr", "pb", "pep" "rattleballs"];
 		var gameGGREV = ["ggrev","axl","bedman","chipp","elphelt","faust","ino","jacko","jam","johnny","kum","ky","leo","may","millia","potemkin","ramlethal","raven","sin","slayer","sol","venom","zato1","dizzy"];
 		var gameSSF2 = ["ssf2","mario","dk","link","kirby","samus","megaman","fox","ness","pikachu","sonic","peach","wario","zelda","sheik","metaknight","zss","bomberman","falcon","blackmage","jigglypuff","tails","yoshi","marth","lloyd","chibirobo","sora","ichigo","naruto","goku"];
 		var gameCorrinMode = ["ssb4r","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm","corrinm"];
@@ -162,7 +161,7 @@
 		var currentColor;
 		var colorIndex;
 		var currentGame;
-		var currentGameChars = gameSmash4;
+		var currentGameChars = gameATBP;
 		var characters;
 		var resized,tableWidth;
 					  
@@ -220,7 +219,12 @@
 				case "switchBrawlMinus": changeGame(gameBrawlMinus);break;
 				case "switchSmash4": changeGame(gameSmash4);break;
 				case "switchSSB4Renders": changeGame(gameSSB4Renders);break;
-				case "switchSFV": changeGame(gameSFV);break;
+				case "switch
+					
+					
+					
+					
+					": changeGame(gameATBP);break;
 				case "switchGGREV": changeGame(gameGGREV);break;
 				case "switchSSF2": changeGame(gameSSF2);break;
 				case "switchBrawlhalla": changeGame(gameBrawlhalla);break;
@@ -301,7 +305,7 @@
 					case "bminus": changeGame(gameBrawlMinus);break;
 					case "pm": changeGame(gamePM);break;
 					case "ssb4": changeGame(gameSmash4);break;
-					case "sfv": changeGame(gameSFV);break;
+					case "atbp": changeGame(gameATBP);break;
 					case "ggrev": changeGame(gameGGREV);break;
 					case "ssf2": changeGame(gameSSF2);break;
 					case "bh": changeGame(gameBrawlhalla);break;
@@ -405,7 +409,7 @@
 				case "pm": changeGame(gamePM);break;
 				case "ssb4": changeGame(gameSmash4);break;
 				case "ssb4r": changeGame(gameSSB4Renders);break;
-				case "sfv": changeGame(gameSFV);break;
+				case "atbp": changeGame(gameATBP);break;
 				case "ggrev": changeGame(gameGGREV);break;
 				case "ssf2": changeGame(gameSSF2);break;
 				case "bh": changeGame(gameBrawlhalla);break;
@@ -438,7 +442,7 @@
 		$(document).ready( function() {
 			$("#char").html("<div></div>");
 			if (localStorage.getItem("TierListMakerCode") === null)
-				changeGame(gameSmash4);
+				changeGame(gameATBP);
 			else {
 				$("#exportcode").val(localStorage.getItem("TierListMakerCode"));
 				loadCode(localStorage.getItem("TierListMakerCode"));
