@@ -1,7 +1,7 @@
-Smash Apps
+ATBP Apps
 ==========
 
-A collection of useful web apps for Super Smash Bros.
+A basic edit of quetzle's Smash Apps to allow ATBP tier listing.
 
 [Use them!](http://quetzle.github.io/smash-apps)
 
